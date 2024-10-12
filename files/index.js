@@ -6,8 +6,8 @@ const UUID = process.env.UUID || 'bd97c688-5fe4-4253-9126-65474177fb9b'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.f4i.cn';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '5ddVS93Eq0Uc9he880';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cho.greedise.cloudns.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOTNlYzcwNTUyNmY0OTY4OTA0NDkxMzMwYmYwMDc5NjQiLCJ0IjoiMzE1YWY0NDYtZGE4Mi00NjlkLWIwMWItYzdlMjMwZmE2OWUzIiwicyI6IlpHTmpOamcxTkdRdFl6VXdNQzAwWXpWbUxUZ3pNVGt0TW1KaE9XWmpOVFV4Tm1KaiJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cho.dfsdaskewl.tk';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMGUxMTgzYmVmZjg3YWIzMjVjZGFlMDQ3M2I1MWUxNWEiLCJ0IjoiNWVhOWExNzItMDZlNS00YTgyLWI1MDgtMzYyYzA5YzhiOTYxIiwicyI6Ik1ERTFPREEwTXpndFpUbGlaaTAwT1RCa0xUbGhPV010T1RsbFptRTFaamhtTW1FeSJ9';
 const CFIP = process.env.CFIP || 'www.wto.org';
 const NAME = process.env.NAME || 'Choreo';
 
